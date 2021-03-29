@@ -1,0 +1,28 @@
+.box{ 
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+}
+.mini-box{ 
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    /* clip-path: inset(top, bottom, left, right); */
+    clip-path: inset(70px 70px 70px 70px);
+    /* inset-path insert ndihmon ne prerjen e fotove */
+}
+.rreth{ 
+    width: 300px;
+    height: 300px;
+    background-color: chocolate;
+/* clip path circle na ndihmone qe te vendosim ne mes te faqes rrethin dhe madhesin e tij */
+    clip-path: circle(20% at 200px 200px );
+    /* clip-path: ellipse(); */
+}
+.poloygon{ 
+    background-color: darkgreen;
+    width: 300px;
+    height: 300px;
+    /* clip path polygon na ndihmone qe te formojme trekendeshin, ajo merr vlerat e x,y x dhe y gjenden ne katrorin kordinativ */
+    clip-path: polygon(0% 100%, 50% 0%, 100% 100% );
+}
